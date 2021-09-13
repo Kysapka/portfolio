@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from "./Nav.module.css";
+import style from "./Nav.module.css";
 
 export const Nav = () => {
     return (
-        <div className={styles.nav}>
+        <div className={style.nav}>
             <a href="https://google.com">Главная</a>
             <a href="https://google.com">Скилы</a>
             <a href="https://google.com">Проекты</a>
