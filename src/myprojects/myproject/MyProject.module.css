@@ -1,0 +1,41 @@
+.projectContainer {
+    width: 250px;
+    background-color: #ffd4f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 200px;
+    background-color: #e3afd1;
+    /*background-image: url("https://apkshki.com/storage/4915/icon_5f297702cb229_4915_w256.png");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTitle {
+    border: solid 1px black;
+    background-color: #dfd4f4;
+}
+
+
+.projectDescription {
+    border: solid 1px black;
+    background-color: #ab44f4;
+}
+
+.projectButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    cursor: pointer;
+}

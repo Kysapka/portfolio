@@ -12,10 +12,7 @@ export const Main = () => {
                     <h1>I am Artem</h1>
                     <p>Frontend Developer.</p>
                 </div>
-
-                <div className={style.photo}>
-
-                </div>
+                <div className={style.photo}></div>
             </div>
         </div>
     );
