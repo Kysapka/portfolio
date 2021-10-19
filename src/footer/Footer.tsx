@@ -15,7 +15,6 @@ export const Footer = () => {
                 </div>
                 <span className={style.copyRight}>© Все права защищены</span>
             </div>
-
         </div>
     );
 }

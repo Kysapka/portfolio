@@ -15,7 +15,7 @@
 }
 
 .contactForm {
-    width: 50%;
+    width: 100%;
     background-color: bisque;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,13 @@
 }
 
 .contactForm input, .contactForm textarea {
-    width: 100%;
+    width: 50%;
+}
+
+@media screen and (max-width: 1255px) {
+    .contactForm {
+        width: 100%;
+    }
 }
 
 

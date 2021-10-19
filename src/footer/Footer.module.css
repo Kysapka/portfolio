@@ -1,12 +1,12 @@
 .footerBlock {
-    min-height: 50vh;
+    /*min-height: 50vh;*/
     background-color: rgba(255, 240, 164, 0.2);
 }
 
 .footerContainer {
     background-color: #eeeef5;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .title {
@@ -14,17 +14,16 @@
 }
 
 .footerContent {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 100px;
+    width: 50%;
     background-color: #ffe9e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .footerMini {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background-color: #bea1aa;
 }
 

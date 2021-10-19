@@ -13,6 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+
     flex-wrap: wrap;
 }
 
@@ -21,8 +23,8 @@ a {
     color: white;
 }
 
-/*@media (max-width: 749px) {*/
-/*    .container {*/
-/*        justify-content: center;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 878px) {
+    .container {
+        justify-content: center;
+    }
+}
