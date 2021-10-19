@@ -8,11 +8,11 @@ export const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <h2 className={style.title}>Контакты</h2>
                 <form className={style.contactForm}>
-                    <input />
-                    <input />
+                    <input type={"text"} />
+                    <input type={"text"} />
                     <textarea style={{resize: "none"}}/>
+                <button type={"submit"} className={style.contactsButton}>Отправить</button>
                 </form>
-                <a href='#' className={style.contactsButton}>Отправить</a>
             </div>
         </div>
     );

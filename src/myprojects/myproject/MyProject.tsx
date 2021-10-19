@@ -12,8 +12,8 @@ export const MyProject = (props: ProjectPropsType) => {
             <div className={style.imageContainer}>
                 <a href='#' className={style.projectButton}>Смотреть</a>
             </div>
-            <div className={style.projectTitle}>{props.title}</div>
-            <div className={style.projectDescription}>{props.description}</div>
+            <h3>{props.title}</h3>
+            <span className={style.projectDescription}>{props.description}</span>
         </div>
     );
 }
