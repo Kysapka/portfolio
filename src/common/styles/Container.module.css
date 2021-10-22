@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+div {
+    display: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+    display: inherit;
+    font-size: inherit;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: inherit;
+    margin-inline-end: inherit;
+    font-weight: 400;
+}
 
 .container {
     border: 1px solid;
@@ -13,8 +25,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
     flex-wrap: wrap;
 }
 
