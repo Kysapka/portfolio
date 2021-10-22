@@ -2,6 +2,9 @@ import React from 'react';
 import style from './MyProject.module.css'
 
 type ProjectPropsType = {
+    style?: {
+        backgroundImage: string
+    }
     title: string
     description: string
 }
@@ -9,7 +12,7 @@ type ProjectPropsType = {
 export const MyProject = (props: ProjectPropsType) => {
     return (
         <div className={style.projectContainer}>
-            <div className={style.imageContainer}>
+            <div className={style.imageContainer} style={props.style}>
                 <a href='#' className={style.projectButton}>Смотреть</a>
             </div>
             <div className={style.projectInfo}>

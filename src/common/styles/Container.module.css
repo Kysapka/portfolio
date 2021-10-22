@@ -3,10 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-div {
-    display: inherit;
-}
-h1,h2,h3,h4,h5,h6 {
+
+h2 {
     display: inherit;
     font-size: inherit;
     margin-block-start: inherit;
