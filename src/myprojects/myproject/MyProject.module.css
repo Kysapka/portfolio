@@ -13,12 +13,26 @@
     background-size: cover;
     /*background-position: center;*/
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.imageContainer::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
 }
 
 .projectButton {
     background-color: #4e93e6;
     padding: 10px 20px;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
 
 .projectInfo {
