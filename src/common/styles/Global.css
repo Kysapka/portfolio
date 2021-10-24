@@ -1,0 +1,6 @@
+.global:nth-child(2n) {
+    background-color: rgba(225, 237, 255, 0.93);
+}
+.global:nth-child(2n+1) {
+    background-color: rgb(255, 164, 198);
+}

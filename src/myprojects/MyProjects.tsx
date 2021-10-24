@@ -6,8 +6,7 @@ import {Title} from "../common/components/title/Title";
 import socialImage from '../assets/image/social.jpg'
 import todoImage from '../assets/image/todo.jpg'
 import webChatImage from '../assets/image/webchat.jpg'
-
-
+import "../common/styles/Global.css"
 
 export const MyProjects = () => {
 
@@ -22,7 +21,7 @@ export const MyProjects = () => {
     };
 
     return (
-        <div className={style.projectsBlock} >
+        <div className={`${style.projectsBlock} global`} >
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                <Title text={"Projects"}/>
                 <div className={style.projects}>
