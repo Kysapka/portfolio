@@ -4,31 +4,16 @@
     box-sizing: border-box;
 }
 
-h2 {
-    display: inherit;
-    font-size: inherit;
-    margin-block-start: inherit;
-    margin-block-end: inherit;
-    margin-inline-start: inherit;
-    margin-inline-end: inherit;
-    font-weight: 400;
-}
-
 .container {
-    border: 1px solid;
-    padding: 50px;
+    border: 1px solid red;
+    /*padding: 50px;*/
     height: 100%;
-    width: 80%;
+    width: 87%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 @media screen and (max-width: 878px) {

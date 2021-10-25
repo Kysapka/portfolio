@@ -3,7 +3,7 @@ import style from './Skills.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
-import "../common/styles/Global.css"
+// import "../common/styles/Global.scss"
 
 export const Skills = () => {
     return (

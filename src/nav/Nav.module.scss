@@ -1,0 +1,19 @@
+@import "../common/styles/sass/mixins";
+@import "../common/styles/sass/variables";
+
+.nav {
+  width: 535px;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    @include text($dsSansFont, 24px);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 31px;
+    color: #fff;
+    &.activeClass {
+     color: $greenColor;
+    }
+  }
+}

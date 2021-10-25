@@ -1,0 +1,19 @@
+@import "../styles/sass/variables";
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.global:nth-child(2n) {
+    background-color: $bgColor;
+}
+.global:nth-child(2n+1) {
+    background-color: $bgSecondColor;
+}

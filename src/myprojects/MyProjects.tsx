@@ -6,7 +6,7 @@ import {Title} from "../common/components/title/Title";
 import socialImage from '../assets/image/social.jpg'
 import todoImage from '../assets/image/todo.jpg'
 import webChatImage from '../assets/image/webchat.jpg'
-import "../common/styles/Global.css"
+
 
 export const MyProjects = () => {
 

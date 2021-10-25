@@ -1,6 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .global:nth-child(2n) {
-    background-color: rgba(225, 237, 255, 0.93);
+  background-color: #313536;
 }
+
 .global:nth-child(2n+1) {
-    background-color: rgb(255, 164, 198);
+  background-color: #252829;
 }
+
+/*# sourceMappingURL=Global.css.map */

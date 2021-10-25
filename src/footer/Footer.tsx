@@ -4,7 +4,7 @@ import styleContainer from "../common/styles/Container.module.css";
 
 export const Footer = () => {
     return (
-        <div className={style.footerBlock}>
+        <div className={`${style.footerBlock} global`}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h2 className={style.title}>Крючков Артем</h2>
                 <div className={style.footerContent}>
