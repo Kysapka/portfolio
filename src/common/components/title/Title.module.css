@@ -1,24 +1,23 @@
 .title {
-  /*background-color: #c8c8ff;*/
-  margin: 0 0 30px;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
-  color: #a9afc3;
-  text-transform: capitalize;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 5px;
+  margin: 0 0 60px;
   position: relative;
 }
-.title .title h2 {
+.title h2 {
+  font-family: "Rufina", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 56px;
+  color: #fff;
   margin: 0;
 }
 .title::before {
   content: "";
   position: absolute;
-  background: #f52225;
-  width: 55px;
-  height: 1px;
+  background: #00E472;
+  width: 92px;
+  height: 5px;
+  border-radius: 50px;
   bottom: -30px;
   left: 50%;
   transform: translate(-50%, 50%);

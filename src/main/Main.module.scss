@@ -1,21 +1,51 @@
+@import "../common/styles/sass/variables";
+
 .mainBlock {
   height: 100vh;
 }
 
 .text {
-  width: 300px;
+  width: 500px;
+  height: 300px;
+
   span {
-    font-weight: 400;
-    font-size: 26px;
+    font-family: $rufinaFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 56px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #00E472;
+  }
+
+  h1 {
+    font-family: $rufinaFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
     color: #fff;
-    margin-bottom: 22px;
-    line-height: 1.3;
-    font-family: "Poppins";
+  }
+
+  p {
+    font-family: $dsSansFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 39px;
+    color: #808080;
   }
 }
 
 .photo {
-  width: 300px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   background-color: #f7f7f7;
+  border-radius: 1%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

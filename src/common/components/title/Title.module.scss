@@ -1,25 +1,25 @@
 @import "../../../common/styles/sass/variables";
 
 .title {
-    /*background-color: #c8c8ff;*/
-    margin: 0 0 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    color: $textColor;
-    text-transform: capitalize;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 5px;
+    margin: 0 0 60px;
     position: relative;
-    .title h2 {
+    & h2 {
+        font-family: $rufinaFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 56px;
+        color: #fff;
         margin: 0;
     }
+
     &::before {
         content: "";
         position: absolute;
-        background: $primaryColor;
-        width: 55px;
-        height: 1px;
+        background: $greenColor;
+        width: 92px;
+        height: 5px;
+        border-radius: 50px;
         bottom: -30px;
         left: 50%;
         transform: translate(-50%, 50%);

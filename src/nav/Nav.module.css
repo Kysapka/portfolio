@@ -10,9 +10,21 @@
   font-weight: bold;
   line-height: 31px;
   color: #fff;
+  position: relative;
 }
 .nav a.activeClass {
   color: #00E472;
+}
+.nav a.activeClass::before {
+  content: "";
+  position: absolute;
+  background: #00E472;
+  width: 92px;
+  height: 5px;
+  border-radius: 50px;
+  bottom: -14px;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 /*# sourceMappingURL=Nav.module.css.map */
