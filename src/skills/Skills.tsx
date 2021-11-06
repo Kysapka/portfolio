@@ -9,7 +9,7 @@ import JSImage from '../assets/image/js-icon.6a563750.svg'
 
 export const Skills = () => {
     const htmlImage = {
-        backgroundImage: `url(${HtmlImage})`
+        backgroundImage: `url(${HtmlImage})`,
     };
     const jsImage = {
         backgroundImage: `url(${JSImage})`
@@ -23,9 +23,9 @@ export const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={"Skills"}/>
                 <div className={style.skills}>
-                    <Skill style={reactImg} title={'REACT'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>
-                    <Skill style={htmlImage} title={'HTML/CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorem, impedit iure...'}/>
-                    <Skill style={jsImage} title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorem, impedit iure magni minus officiis placeat sed?'}/>
+                    <Skill style={reactImg} title={'React / Redux'} description={'A most populas JavaScript library for building user interfaces.'}/>
+                    <Skill style={htmlImage} title={'HTML/ CSS'} description={'Skills and knowledge of layout using preprocessors such as SCSS/SASS'}/>
+                    <Skill style={jsImage} title={'JS / Typescript'} description={'Using a strongly typed language to speed up development'}/>
                 </div>
             </div>
         </div>
