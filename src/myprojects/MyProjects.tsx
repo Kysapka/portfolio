@@ -25,9 +25,9 @@ export const MyProjects = () => {
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                <Title text={"Projects"}/>
                 <div className={style.projects}>
-                    <MyProject style={social}  title={'Social Network'} description={'Lorem ipsum dolor sit amet, consectetupsum dolor sit psum dolor sit psum dolor sit r adipisicing elit. Alias dolorem, impedit iure magni minus officiis placeat sed?'}/>
-                    <MyProject style={todo} title={'Todolist'} description={'Lorem ipsum dolor sit amet,  sit amet, consectetur adipisicing elit. Alias dolorem, impedit iure...'}/>
-                    <MyProject style={webChat} title={'WebChat'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorem, impedit iure...'}/>
+                    <MyProject style={social}  title={'Social Network'} description={'Social network: research project, sharpening skills'}/>
+                    <MyProject style={todo} title={'Todolist'} description={'To do list for every day on the week'}/>
+                    <MyProject style={webChat} title={'WebChat'} description={'Web chat with use firebase'}/>
                 </div>
             </div>
         </div>

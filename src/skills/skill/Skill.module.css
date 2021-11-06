@@ -8,7 +8,6 @@
   align-items: center;
   text-align: center;
   border: solid 1px #00E472;
-  border-radius: 10%;
 }
 .skill h3 {
   font-family: "Rufina", serif;
@@ -27,7 +26,6 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 20px;
-  border-radius: 10%;
 }
 .skill .description {
   margin-top: 20px;
