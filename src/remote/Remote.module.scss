@@ -1,0 +1,28 @@
+@import "../common/styles/sass/variables.scss";
+
+.remoteBlock {
+    background-color: #d4ffc0;
+}
+
+.remoteContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 30vh;
+}
+
+.title {
+    //background-color: #ffd4f0;
+      font-family: $rufinaFont;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 32px;
+      color: #fff;
+      margin: 0;
+}
+
+.remoteButton {
+    padding: 10px 20px;
+    background-color: brown;
+    cursor: pointer;
+}

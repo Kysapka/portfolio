@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './MyProject.module.scss'
+import '../../common/styles/Global.scss'
 
 type ProjectPropsType = {
     style?: {
@@ -29,6 +30,6 @@ type ProjectButtonProps = {
 }
 export const ProjectButton = ({text}: ProjectButtonProps) => {
     return (
-        <a href='#' className={style.projectButton}>{text}</a>
+        <a href='#' className={'projectButton'}>{text}</a>
     )
 }

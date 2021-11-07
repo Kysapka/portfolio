@@ -26,24 +26,6 @@
   right: 0;
   opacity: 0.4;
 }
-.projectContainer .imageContainer .projectButton {
-  font-family: "DM Sans", sans-serif;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 33px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: #00E472;
-  height: 60px;
-  border-radius: 38px;
-  padding: 10px 20px;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-  color: #fff;
-}
 .projectContainer .projectInfo {
   padding: 25px 20px;
 }
