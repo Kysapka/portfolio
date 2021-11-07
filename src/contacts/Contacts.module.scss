@@ -1,0 +1,68 @@
+@import "../common/styles/sass/variables";
+
+.contactsBlock {
+  //background-color: rgba(255, 192, 123, 0.45);
+
+  .contactsContainer {
+    min-height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    //background-color: rgba(218, 224, 255, 0.74);
+
+    .title {
+      //background-color: #ffd4f0;
+    }
+
+    .contactForm {
+      width: 956px;
+      height: 796px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      input {
+        background-color: $bgColor;
+        padding: 30px;
+        width: 956px;
+        height: 88px;
+        border: 3px solid #00E472;
+        box-sizing: border-box;
+        border-radius: 20px;
+
+        font-family: $dsSansFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 33px;
+        color: $textSecondColor;
+      }
+
+      textarea {
+        background-color: $bgColor;
+        padding: 30px;
+        width: 956px;
+        height: 323px;
+        border: 3px solid #00E472;
+        box-sizing: border-box;
+        border-radius: 20px;
+
+        font-family: $dsSansFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 33px;
+        color: $textSecondColor;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 1255px) {
+  .contactForm {
+    width: 100%;
+  }
+}
+
+
