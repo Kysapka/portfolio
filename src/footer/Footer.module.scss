@@ -1,0 +1,52 @@
+@import "../common/styles/sass/variables";
+
+.footerBlock {
+  //background-color: rgba(255, 240, 164, 0.2);
+  display: flex;
+
+  .footerContainer {
+    min-height: 40vh;
+    //background-color: #eeeef5;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .title {
+      /*background-color: #ffd4f0;*/
+
+      font-family: $dsSansFont;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 33px;
+      display: flex;
+      align-items: center;
+      color: $primaryColor;
+    }
+
+    .footerContent {
+      width: 30%;
+      //background-color: #ffe9e9;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .copyRight {
+      //background-color: #99d0fb;
+      font-family: $dsSansFont;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 33px;
+      color: $textSecondColor;
+    }
+  }
+}
+
+
+/*.footerMini {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    background-color: #bea1aa;*/
+/*}*/
+

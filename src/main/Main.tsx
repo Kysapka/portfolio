@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
-import photoImg from '../assets/image/photo.png'
+import photoImg from '../assets/image/photo.jpg'
 
 const photo = {
     backgroundImage: `url(${photoImg})`
