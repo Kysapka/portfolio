@@ -15,9 +15,10 @@
   line-height: 33px;
   display: flex;
   align-items: center;
-  color: #00E472;
+  color: #ABAEB0;
 }
 .footerBlock .footerContainer .footerContent {
+  color: #00E472;
   width: 30%;
   display: flex;
   align-items: center;
