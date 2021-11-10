@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './Remote.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
-import {ProjectButton} from "../myprojects/myproject/MyProject";
+import {ProjectButton} from "../common/components/button/Button";
+
 
 export const Remote = () => {
     return (

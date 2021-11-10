@@ -41,6 +41,37 @@
   line-height: 33px;
   color: #ABAEB0;
 }
+.contactsBlock .contactsContainer .contactForm .errorMessage {
+  color: #d9342c;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+.messageSuccess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 10px;
+  max-width: 290px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #292927;
+  border: 1px solid white;
+  border-radius: 6px;
+  z-index: 1;
+  transition: all 400ms ease;
+}
+.messageSuccess span {
+  text-align: center;
+  color: #e7e1e1;
+}
 
 @media screen and (max-width: 1255px) {
   .contactForm {

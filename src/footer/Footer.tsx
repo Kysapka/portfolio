@@ -23,7 +23,6 @@ export const Footer = () => {
                     {/*<div className={style.footerMini}></div>*/}
                     {/*<div className={style.footerMini}></div>*/}
 
-
                 </div>
                 <span className={style.copyRight}>© Все права защищены</span>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './MyProject.module.scss'
 import '../../common/styles/Global.scss'
+import {ProjectButton} from "../../common/components/button/Button";
 
 type ProjectPropsType = {
     style?: {
@@ -23,13 +24,4 @@ export const MyProject = (props: ProjectPropsType) => {
             </div>
         </div>
     );
-}
-
-type ProjectButtonProps = {
-    text: string
-}
-export const ProjectButton = ({text}: ProjectButtonProps) => {
-    return (
-        <a href='#' className={'projectButton'}>{text}</a>
-    )
 }

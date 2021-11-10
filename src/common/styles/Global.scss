@@ -19,7 +19,7 @@ a {
     background-color: $bgSecondColor;
 }
 
-.projectButton {
+.projectLink {
     @include text($dsSansFont, 19px);
     font-style: normal;
     font-weight: 500;
