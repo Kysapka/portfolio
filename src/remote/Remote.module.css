@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 30vh;
+  text-align: center;
 }
 
 .title {

@@ -14,19 +14,13 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-@media screen and (max-width: 540px) {
-  .container {
+  @media screen and (max-width: 540px) {
     padding: 0px;
     width: 90%;
     justify-content: center;
   }
-}
-@media screen and (max-width: 360px) {
-  .container {
+  @media screen and (max-width: 360px) {
     padding: 0px;
     justify-content: center;
   }
 }
-
-/*# sourceMappingURL=Container.module.css.map */

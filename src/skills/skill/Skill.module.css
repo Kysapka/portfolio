@@ -1,6 +1,8 @@
 .skill {
+  margin-bottom: 20px;
   padding: 20px;
-  width: 358px;
+  width: 250px;
+  margin-right: 10px;
   min-height: 338px;
   background-color: #252829;
   display: flex;
@@ -8,6 +10,11 @@
   align-items: center;
   text-align: center;
   border: solid 1px #00E472;
+}
+@media screen and (max-width: 962px) {
+  .skill {
+    width: 100%;
+  }
 }
 .skill h3 {
   font-family: "Rufina", serif;

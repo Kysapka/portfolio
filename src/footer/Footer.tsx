@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Footer.module.scss'
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
@@ -17,12 +17,6 @@ export const Footer = () => {
                     <FontAwesomeIcon icon={faLinkedin} size="4x" />
                     <FontAwesomeIcon icon={faTelegram} size="4x" />
                     <FontAwesomeIcon icon={faInstagram} size="4x" className={style.footerMini}/>
-
-                    {/*<div className={style.footerMini}></div>*/}
-                    {/*<div className={style.footerMini}></div>*/}
-                    {/*<div className={style.footerMini}></div>*/}
-                    {/*<div className={style.footerMini}></div>*/}
-
                 </div>
                 <span className={style.copyRight}>© Все права защищены</span>
             </div>

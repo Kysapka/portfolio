@@ -1,5 +1,5 @@
 .mainBlock {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .text {
@@ -42,6 +42,11 @@
   border-radius: 1%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .photo {
+    background-position: 30%;
+  }
 }
 
 /*# sourceMappingURL=Main.module.css.map */

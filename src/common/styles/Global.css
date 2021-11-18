@@ -18,6 +18,8 @@ a {
 }
 
 .projectLink {
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: "DM Sans", sans-serif;
   font-size: 19px;
   font-style: normal;

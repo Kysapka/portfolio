@@ -20,6 +20,8 @@ a {
 }
 
 .projectLink {
+    margin-top: 10px;
+    margin-bottom: 10px;
     @include text($dsSansFont, 19px);
     font-style: normal;
     font-weight: 500;

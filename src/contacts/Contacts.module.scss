@@ -14,18 +14,19 @@
     }
 
     .contactForm {
-      width: 956px;
-      height: 796px;
+      width: 80%;
+      //height: 796px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
 
       input {
+        margin-bottom: 20px;
         background-color: $bgColor;
         padding: 30px;
-        width: 956px;
-        height: 88px;
+        width: 100%;
+        //height: 88px;
         border: 3px solid #00E472;
         box-sizing: border-box;
         border-radius: 20px;
@@ -36,13 +37,21 @@
         font-size: 25px;
         line-height: 33px;
         color: $textSecondColor;
+        @media screen and (max-width: 375px) {
+          padding: 10px 15px;
+          border: 1px solid #00E472;
+          border-radius: 5px;
+          font-size: 15px;
+          line-height: 20px;
+        }
       }
 
       textarea {
+        margin-bottom: 20px;
         background-color: $bgColor;
         padding: 30px;
-        width: 956px;
-        height: 323px;
+        width: 100%;
+        //height: 323px;
         border: 3px solid #00E472;
         box-sizing: border-box;
         border-radius: 20px;
@@ -53,6 +62,13 @@
         font-size: 25px;
         line-height: 33px;
         color: $textSecondColor;
+        @media screen and (max-width: 375px) {
+          padding: 10px 15px;
+          border: 1px solid #00E472;
+          border-radius: 5px;
+          font-size: 15px;
+          line-height: 20px;
+        }
       }
       .errorMessage {
         color: #d9342c;
@@ -66,8 +82,6 @@
   }
 
 }
-
-
 
 .messageSuccess {
   display: flex;
@@ -94,10 +108,11 @@
   }
 }
 
-@media screen and (max-width: 1255px) {
-  .contactForm {
-    width: 100%;
-  }
-}
+//@media screen and (max-width: 1255px) {
+//  .contactForm {
+//    width: 100%;
+//  }
+//}
+
 
 

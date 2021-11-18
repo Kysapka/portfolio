@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Remote.module.scss'
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import {ProjectButton} from "../common/components/button/Button";
 
 

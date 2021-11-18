@@ -2,12 +2,17 @@
 @import "../../common/styles/sass/mixins";
 
 .projectContainer {
+  margin-bottom: 20px;
+  margin-right: 20px;
   width: 358px;
   min-height: 450px;
   display: flex;
   flex-direction: column;
   background-color: $bgColor;
   border: solid 1px $greenColor;
+  @media screen and (max-width: 985px) {
+    width: 100%;
+  }
 
 
   .imageContainer {
@@ -33,7 +38,7 @@
   }
 
   .projectInfo {
-    padding: 25px 20px;
+    padding: 10px 20px;
 
     .projectTitle {
       @include text($rufinaFont, 22px);
@@ -42,7 +47,7 @@
       font-style: normal;
       font-weight: normal;
       //letter-spacing: 1px;
-      margin: 0 0 20px;
+      margin: 0 0 10px;
     }
 
     .projectDescription {
