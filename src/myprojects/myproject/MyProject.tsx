@@ -10,7 +10,6 @@ type ProjectPropsType = {
     title: string
     description: string
 }
-
 export const MyProject = (props: ProjectPropsType) => {
     return (
         <div className={style.projectContainer}>
